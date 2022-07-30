@@ -2,6 +2,7 @@
 
 function btnInicio(){
     document.querySelector(".boton-principal").classList.add("invisible");
+    document.querySelector(".audio").classList.add("invisible");
     document.querySelector(".area-capa2").classList.remove("invisible");
     setTimeout(() => {
         document.querySelector(".area-capa2").classList.add("invisible");

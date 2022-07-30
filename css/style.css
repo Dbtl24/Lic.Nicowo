@@ -26,8 +26,12 @@ body{
 }
 
 .audio{
+    color: #fdfdfd;
+    font-size: 28px;
     position: absolute;
-    top: 300px
+    top: 25px;
+    left: 60px;
+    text-align: center;
 }
 
 
