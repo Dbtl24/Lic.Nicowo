@@ -1,0 +1,40 @@
+@font-face {
+    font-family: valentina;
+    src: url(aAnggota.ttf);
+}
+
+body{
+    background: url(../img/fondo.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    margin: 0 auto;
+    font-family: valentina;
+    width: auto;
+}
+
+.inicio{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 620px;
+}
+
+.invisible{
+    opacity: 0;
+    visibility: hidden;
+    transition: none;
+}
+
+.audio{
+    position: absolute;
+    top: 300px
+}
+
+
+@media screen and (min-width: 760x){
+    .area-capa2, .area-capa3, .area-capa4, .area-capa5, .area-capa6{
+        width: 100%;
+     }
+
+
+ }

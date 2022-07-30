@@ -1,0 +1,24 @@
+.area-capa6{
+    text-align: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.texto-capa6{
+    color: white;
+    font-size: 40px;
+    padding-top: 8px;
+}
+.imagen-capa6{
+    height: 550px;
+    width: 450px;
+}
+
+@media screen and (max-width: 760px){
+    .imagen-capa6{
+        width: 100%;
+        
+     }
+    
+}

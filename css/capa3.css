@@ -1,0 +1,26 @@
+.area-capa3{
+    text-align: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.texto-capa3{
+    color: white;
+    font-size: 40px;
+    padding-top: 8px;
+}
+.imagen-capa3{
+    height: 400px;
+    width: 600px;
+}
+
+@media screen and (max-width: 750px){
+    .imagen-capa3{
+        height: 300px;
+        width: 100%;
+        
+     }
+
+ }
